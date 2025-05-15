@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>astro_nav_sim</name>
+    <version>0.0.1</version>
+    <description>
+        A ROS package for simulating and navigating planetary surfaces (Moon, Mars) in Gazebo.
+    </description>
+
+    <maintainer email="1398241459@qq.com">YeatsWang</maintainer>
+    <license>MIT</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>roscpp</depend>
+    <depend>rospy</depend>
+    <depend>std_msgs</depend>
+    <depend>gazebo_ros</depend>
+    <depend>tf</depend>
+    <depend>nav_msgs</depend>
+    <depend>map_server</depend>
+    <depend>amcl</depend>
+    <depend>move_base</depend>
+
+    <export>
+        <!-- Other tools can request additional information be placed here -->
+    </export>
+</package>
