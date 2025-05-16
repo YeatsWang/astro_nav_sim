@@ -38,6 +38,11 @@ git clone https://github.com/yourusername/astro_nav_sim.git
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
+
+# add into ~/.bashrc
+export GAZEBO_MODEL_PATH=~/catkin_ws/src/astro_nav_sim/models:${GAZEBO_MODEL_PATH}
+export GAZEBO_RESOURCE_PATH=~/catkin_ws/src/astro_nav_sim/models:${GAZEBO_RESOURCE_PATH}
+
 ```
 
 ---
@@ -82,15 +87,11 @@ astro_nav_sim/
 
 The following open‑source projects provided models and environments.
 
-* Modeling-and-Simulation-of-Martian-Rover: [https://github.com/theunknowninfinite/Modeling-and-Simulation-of-Martian-Rover](https://github.com/theunknowninfinite/Modeling-and-Simulation-of-Martian-Rover)
-* mars\_gazebo: [https://github.com/aunefyren/mars\_gazebo](https://github.com/aunefyren/mars_gazebo)
+* ezrassor_sim_gazebo: [https://github.com/FlaSpaceInst/ezrassor_sim_gazebo](https://github.com/FlaSpaceInst/ezrassor_sim_gazebo)
+* space_ros_demos: [https://github.com/space-ros/demos](https://github.com/space-ros/demos)
 * MarsSim: [https://github.com/MorpheusPD/MarsSim](https://github.com/MorpheusPD/MarsSim)
-* oryksRover: [https://github.com/lyleokoth/oryksRover](https://github.com/lyleokoth/oryksRover)
-* amr-ros-config (moon.world): [https://github.com/MobileRobots/amr-ros-config/blob/master/gazebo/moon.world](https://github.com/MobileRobots/amr-ros-config/blob/master/gazebo/moon.world)
-* spaceros\_gz\_demos: [https://github.com/space-ros/demos](https://github.com/space-ros/demos)
-* space\_robotics\_gz\_envs: [https://github.com/AndrejOrsula/space\_robotics\_gz\_envs](https://github.com/AndrejOrsula/space_robotics_gz_envs)
-* spot\_ros2\_ign: [https://github.com/diyaagarwal21/spot\_ros2\_ign](https://github.com/diyaagarwal21/spot_ros2_ign)
-* gazebo\_models: [https://github.com/osrf/gazebo\_models](https://github.com/osrf/gazebo_models)
+* space_robotics_gz_envs: [https://github.com/AndrejOrsula/space_robotics_gz_envs](https://github.com/AndrejOrsula/space_robotics_gz_envs)
+* gazebo_models: [https://github.com/osrf/gazebo_models](https://github.com/osrf/gazebo_models)
 
 ---
 
