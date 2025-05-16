@@ -29,11 +29,6 @@ A ROS package for simulating and navigating planetary surfaces (Moon, Mars) in G
 cd ~/catkin_ws/src
 git clone https://github.com/yourusername/astro_nav_sim.git
 
-# (Optional) Clone any model sources you plan to use:
-# git clone https://github.com/theunknowninfinite/Modeling-and-Simulation-of-Martian-Rover.git models/martian_rover
-# git clone https://github.com/aunefyren/mars_gazebo.git models/mars_gazebo
-# ...
-
 # Build and source
 cd ~/catkin_ws
 catkin_make
@@ -60,25 +55,6 @@ roslaunch astro_nav_sim lunar.launch
 
 ```bash
 roslaunch astro_nav_sim martian.launch
-```
-
-## Directory Structure
-
-```
-astro_nav_sim/
-├── CMakeLists.txt
-├── package.xml
-├── worlds/
-│   ├── moon.world
-│   └── mars.world
-├── models/
-│   ├── rover_6dof/
-│   ├── spot/
-│   └── ...
-├── launch/
-│   ├── lunar.launch
-│   └── martian.launch
-└── README.md
 ```
 
 ---
