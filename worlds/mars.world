@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <sdf version='1.6'>
   <world name='mars'>
 
@@ -63,12 +64,6 @@
       <name>rock_4</name>
       <uri>model://mars_rock</uri>
       <pose>24 24 -2.163455 0.029706 0.143569 -3.14</pose>
-    </include>
-    
-    <include>
-      <name>iss</name>
-      <uri>model://iss</uri>
-      <pose>42.634808 11.657930 -4.062596 -0.011634 0.051692 -1.567062</pose>
     </include>
 
     <physics name='default_physics' default='0' type='ode'>
