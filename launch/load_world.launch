@@ -1,6 +1,6 @@
 <launch>
     <!-- Path to the world file; default is the lunar world -->
-    <arg name="world" default="$(find astro_nav_sim)/worlds/flat_moon.world"/>
+    <arg name="world" default="$(find astro_nav_sim)/worlds/forest.world"/>
 
     <!-- Include Gazebo empty_world launch, passing our world -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">

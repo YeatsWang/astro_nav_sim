@@ -45,6 +45,25 @@ Modify the world name in the launch file
 ```bash
 roslaunch astro_nav_sim load_world.launch
 ````
+Quick look:
+
+![MOON](docs/images/moon.png)
+moon.world
+
+![MARS](docs/images/mars.png)
+mars.world
+
+![CURIOSITY](docs/images/curiosity.png)
+mars_curiosity.world
+
+![MOON2](docs/images/moon_2.png)
+moon_2.world
+
+![MARS2](docs/images/mars_2.png)
+mars_2.world
+
+![FOREST](docs/images/forest.png)
+forest.world
 
 ---
 
@@ -59,8 +78,8 @@ astro_nav_sim/
 │   └── tile_test.world
 │   └── mars_curiosity.world  # space_ros_demos
 │   └── low_moon.world        # Space_Exploration_Rover
-│   └── flat_mars.world
-│   └── flat_mars.world
+│   └── moon_2.world
+│   └── mars_2.world
 │   └── forest.world
 ├── models/
 │   ├── dem_moon/
